@@ -15,10 +15,10 @@ export default function Basket() {
     <>
       <div className="favorite_container_linkBar">
         <div className="favorite_linkBar">
-          <span>سبد خرید</span>
+          <span>Cart</span>
           <Link className="favorite_backLink" to={"/"}>
             <HiArrowRight />
-            صفحه محصولات
+            Products Page
           </Link>
         </div>
         {state.basket.length > 0 && (
@@ -26,7 +26,7 @@ export default function Basket() {
             <div className="free_send_title">
               <img src="images/sound(1).jpg" alt="" />
               <span>
-                هزینه ارسال برای خرید های بالای 100,000 USD رایگان می باشد.
+              Shipping is free for purchases over 100,000 USD.
               </span>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function Basket() {
           <div className="basket_priceBox">
             <OfferBadge />
             <div className="basket_price">
-              <span>جمع سبد خرید</span>
+              <span>Total shopping cart</span>
               <span>|</span>
               <span>{state.totalPrice.toLocaleString()} USD</span>
             </div>
@@ -58,7 +58,7 @@ export default function Basket() {
               <span>Total</span>
               <span>{state.totalPriceFainal.toLocaleString()} USD</span>
             </div>
-            <button className="basket_button_buy">ادامه فرایند خرید</button>
+            <button className="basket_button_buy">Continue shopping</button>
             <button
               onClick={() => dispath({ type: "EMPTY_BASKET" })}
               className="basket_button_remove"
@@ -74,7 +74,7 @@ export default function Basket() {
             src="images/empty-cart.png"
             alt=""
           />
-          <span className="favorite_empty_title">سبد خرید خالی است</span>
+          <span className="favorite_empty_title">Cart is empty</span>
         </div>
       )}
     </>

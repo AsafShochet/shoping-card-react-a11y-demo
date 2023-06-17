@@ -20,17 +20,17 @@ function Offer() {
 
   return (
     <div className="offer_container">
-      <span>کد تخفیف دارید؟</span>
+      <span>Do you have a discount code?</span>
       <div className="offer_box">
         <input
           value={offerInput}
           onChange={(e) => inputHandler(e)}
           type="text"
           disabled={state.isEnterOfferCode}
-          placeholder="کد تخفیف: ABCD"
+          placeholder="For example: ABCD"
         />
         <button disabled={state.isEnterOfferCode} onClick={checkOfferCode}>
-          اعمال کد
+          Apply
         </button>
       </div>
       {clickButton && state.isEnterOfferCode && (

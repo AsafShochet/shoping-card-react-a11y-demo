@@ -16,7 +16,7 @@ export default function FavoritePage() {
           <span>Favorites</span>
           <Link className="favorite_backLink" to={"/"}>
             <HiArrowRight />
-            صفحه محصولات
+            Products Page
           </Link>
         </div>
       </div>
