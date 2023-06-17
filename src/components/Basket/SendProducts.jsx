@@ -8,7 +8,7 @@ export default function SendProducts() {
   return (
     <div className="send_products">
       <div className="send_info_price">
-        <span>Total</span>
+        <span>Total Shipping</span>
         <span>
           {state.totalPrice - state.offerPrice <= 100_000
             ? `${sendPrice.toLocaleString()} USD`
