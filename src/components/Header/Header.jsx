@@ -35,6 +35,7 @@ function Header() {
         <div className="icon_Sopping_box">
           <Link to={"/basket"} className="shoppe_icon_box">
             <AiOutlineShopping className="shop_icon" />
+            {/* <AiOutlineShopping className="shop_icon" title='Go to basket'/> */}
             {state.basket.length > 0 && (
               <span className="badge_shope">{state.basket.length}</span>
             )}
