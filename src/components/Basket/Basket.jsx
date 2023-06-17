@@ -26,7 +26,7 @@ export default function Basket() {
             <div className="free_send_title">
               <img src="images/sound(1).jpg" alt="" />
               <span>
-                هزینه ارسال برای خرید های بالای 100,000 تومان رایگان می باشد.
+                هزینه ارسال برای خرید های بالای 100,000 USD رایگان می باشد.
               </span>
             </div>
           </div>
@@ -44,26 +44,26 @@ export default function Basket() {
             <div className="basket_price">
               <span>جمع سبد خرید</span>
               <span>|</span>
-              <span>{state.totalPrice.toLocaleString()} تومان</span>
+              <span>{state.totalPrice.toLocaleString()} USD</span>
             </div>
             {state.totalPriceAfterOffer > 0 && (
               <div className="basket_offer">
                 <span>قیمت با تخفیف</span>
-                <span>{state.totalPriceAfterOffer.toLocaleString()} تومان</span>
+                <span>{state.totalPriceAfterOffer.toLocaleString()} USD</span>
               </div>
             )}
             <Offer />
             <SendProducts />
             <div className="basket_send">
-              <span>مجموع مبلغ قابل پرداخت</span>
-              <span>{state.totalPriceFainal.toLocaleString()} تومان</span>
+              <span>Total</span>
+              <span>{state.totalPriceFainal.toLocaleString()} USD</span>
             </div>
             <button className="basket_button_buy">ادامه فرایند خرید</button>
             <button
               onClick={() => dispath({ type: "EMPTY_BASKET" })}
               className="basket_button_remove"
             >
-              حذف {state.basket.length} کالا از سبد خرید
+              Remove {state.basket.length} items
             </button>
           </div>
         </div>

@@ -28,19 +28,19 @@ const filterReduce = (state, action) => {
       };
     case "VEGETABLE":
       return {
-        ...filterItemsHandler("سبزیجات")
+        ...filterItemsHandler("Vegetable")
       };
     case "FRUIT":
       return {
-        ...filterItemsHandler("میوه جات")
+        ...filterItemsHandler("Fruit")
       };
     case "NUTS":
       return {
-        ...filterItemsHandler("خشکبار")
+        ...filterItemsHandler("Nuts")
       };
     case "BEANS":
       return {
-        ...filterItemsHandler("حبوبات")
+        ...filterItemsHandler("Beans")
       };
     default:
       return state;

@@ -13,7 +13,7 @@ export default function FavoritePage() {
     <>
       <div className="favorite_container_linkBar">
         <div className="favorite_linkBar">
-          <span>علاقه مندی ها</span>
+          <span>Favorites</span>
           <Link className="favorite_backLink" to={"/"}>
             <HiArrowRight />
             صفحه محصولات
@@ -28,8 +28,7 @@ export default function FavoritePage() {
                 onClick={() => dispath({ type: "REMOVE_ALL_FAVORITE" })}
                 className="favorite_removeAll"
               >
-                حذف همه
-              </button>
+Remove all              </button>
             </div>
             <div className="favorite_container">
               {state.favorites.map((product) => (
@@ -44,7 +43,7 @@ export default function FavoritePage() {
               src="images/empty_favorite.svg"
               alt=""
             />
-            <span className="favorite_empty_title">علاقه مندی ها خالی است</span>
+            <span className="favorite_empty_title">Nothing here</span>
           </div>
         )}
       </div>

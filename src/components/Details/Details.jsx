@@ -18,7 +18,7 @@ export default function Details() {
       <div className="details_linkBar">
         <span onClick={() => navigate(-1)} className="details_backLink">
           <HiArrowRight />
-          بازگشت
+          Back
         </span>
       </div>
       <div className="datails_card">
@@ -32,13 +32,13 @@ export default function Details() {
             <span className="card_title">{datas.title}</span>
             <span style={{ color: "#8fc700" }}>|</span>
             <span className="card_price">
-              {datas.price.toLocaleString()} تومان
+              {datas.price.toLocaleString()} USD
             </span>
           </div>
           <div className="card_information">
             <ul>
-              <li>ارگانیک : بله</li>
-              <li>وزن بسته بندی : یک کیلوگرم</li>
+              <li>Organic: Yes</li>
+              <li>Packaging weight: one kilogram</li>
             </ul>
           </div>
           {checkBasket && <Buttons {...datas} />}
@@ -48,7 +48,7 @@ export default function Details() {
             }
             className="card_buy"
           >
-            افزودن به سبد
+            Add to cart
           </button>
         </div>
       </div>

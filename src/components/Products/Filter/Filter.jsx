@@ -8,31 +8,31 @@ export default function Filter() {
     <div className="filter_container">
       <div className="filter_btnBox">
         <button onClick={() => dispath({ type: "ALL" })} className="filter_btn">
-          همه
+          All
         </button>
         <button
           onClick={() => dispath({ type: "VEGETABLE" })}
           className="filter_btn"
         >
-          سبزیجات
+          Vegtable
         </button>
         <button
           onClick={() => dispath({ type: "FRUIT" })}
           className="filter_btn"
         >
-          میوه
+          Fruit
         </button>
         <button
           onClick={() => dispath({ type: "NUTS" })}
           className="filter_btn"
         >
-          خشکبار
+          Nuts
         </button>
         <button
           onClick={() => dispath({ type: "BEANS" })}
           className="filter_btn"
         >
-          حبوبات
+          Beans
         </button>
       </div>
     </div>

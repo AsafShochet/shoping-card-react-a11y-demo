@@ -21,7 +21,7 @@ export default function Card(props) {
             <span>{props.title}</span>
           </div>
           <div className="price">
-            <span>{props.price.toLocaleString()} تومان</span>
+            <span>{props.price.toLocaleString()} USD</span>
           </div>
         </div>
       </Link>
@@ -32,7 +32,7 @@ export default function Card(props) {
           onClick={() => dispath({ type: "ADD_TO_BASKET", payload: props.id })}
           className="products_button buy_button"
         >
-          خرید
+         Add
           <FiShoppingCart className="buy_icon" />
         </button>
       )}

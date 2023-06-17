@@ -1,327 +1,328 @@
-let allProducts = [{
+let allProducts = [
+  {
     id: 1,
-    title: 'توت فرنگی',
-    image: 'images/1.jpg',
+    title: "Strawberry",
+    image: "images/1.jpg",
     price: 10000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 2,
-    title: 'پیاز',
-    image: 'images/2.jpg',
+    title: "Onion",
+    image: "images/2.jpg",
     price: 13000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 3,
-    title: 'گوجه فرنگی',
-    image: 'images/3.jpg',
+    title: "Tomato",
+    image: "images/3.jpg",
     price: 15000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 4,
-    title: 'بادمجان',
-    image: 'images/4.jpg',
+    title: "Eggplant",
+    image: "images/4.jpg",
     price: 12500,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 5,
-    title: 'کلم بروکلی',
-    image: 'images/5.jpg',
+    title: "Broccoli",
+    image: "images/5.jpg",
     price: 8500,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 7,
-    title: 'هویج',
-    image: 'images/7.jpg',
+    title: "Carrot",
+    image: "images/7.jpg",
     price: 12000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 8,
-    title: 'گل کلم',
-    image: 'images/8.jpg',
+    title: "Colliflower",
+    image: "images/8.jpg",
     price: 8000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 9,
-    title: 'خیار',
-    image: 'images/9.jpg',
+    title: "Cucumber",
+    image: "images/9.jpg",
     price: 4000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 10,
-    title: 'سیر',
-    image: 'images/10.jpg',
+    title: "Garlic",
+    image: "images/10.jpg",
     price: 16500,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 11,
-    title: 'فلفل دلمه',
-    image: 'images/11.jpg',
+    title: "Green Pepper",
+    image: "images/11.jpg",
     price: 7000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 12,
-    title: 'کاهو',
-    image: 'images/12.jpg',
+    title: "Lettuce",
+    image: "images/12.jpg",
     price: 18000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 13,
-    title: 'فلفل قرمز',
-    image: 'images/13.jpg',
+    title: "Hot Pepper",
+    image: "images/13.jpg",
     price: 20000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 14,
-    title: 'هندوانه',
-    image: 'images/14.jpg',
+    title: "Watermelon",
+    image: "images/14.jpg",
     price: 8000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 15,
-    title: 'قارچ',
-    image: 'images/15.jpg',
+    title: "Mushroom",
+    image: "images/15.jpg",
     price: 25000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 16,
-    title: 'موز',
-    image: 'images/16.jpg',
+    title: "Banana",
+    image: "images/16.jpg",
     price: 47000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 17,
-    title: 'کدو',
-    image: 'images/17.jpg',
+    title: "Zukkini",
+    image: "images/17.jpg",
     price: 13500,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 18,
-    title: 'آناناس',
-    image: 'images/18.jpg',
+    title: "Pinapple",
+    image: "images/18.jpg",
     price: 25500,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 19,
-    title: 'بادام',
-    image: 'images/19.jpg',
+    title: "Almond",
+    image: "images/19.jpg",
     price: 55000,
     count: 1,
     isInterest: false,
-    category: 'خشکبار'
-},
-{
+    category: "Nuts"
+  },
+  {
     id: 20,
-    title: 'سیب',
-    image: 'images/20.jpg',
+    title: "Apple",
+    image: "images/20.jpg",
     price: 12500,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 21,
-    title: 'فندق',
-    image: 'images/21.jpg',
+    title: "Armon",
+    image: "images/21.jpg",
     price: 45000,
     count: 1,
     isInterest: false,
-    category: 'خشکبار'
-},
-{
+    category: "Nuts"
+  },
+  {
     id: 22,
-    title: 'پسته',
-    image: 'images/22.jpg',
+    title: "Pistachio",
+    image: "images/22.jpg",
     price: 150000,
     count: 1,
     isInterest: false,
-    category: 'خشکبار'
-},
-{
+    category: "Nuts"
+  },
+  {
     id: 23,
-    title: 'پرتقال',
-    image: 'images/23.jpg',
+    title: "Orange",
+    image: "images/23.jpg",
     price: 12000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 24,
-    title: 'تخمه آفتابگردان',
-    image: 'images/24.jpg',
+    title: "Sunflower Seed",
+    image: "images/24.jpg",
     price: 40000,
     count: 1,
     isInterest: false,
-    category: 'خشکبار'
-},
-{
+    category: "Nuts"
+  },
+  {
     id: 25,
-    title: 'گردو',
-    image: 'images/25.jpg',
+    title: "King Nuts",
+    image: "images/25.jpg",
     price: 50000,
     count: 1,
     isInterest: false,
-    category: 'خشکبار'
-},
-{
+    category: "Nuts"
+  },
+  {
     id: 26,
-    title: 'گیلاس',
-    image: 'images/26.jpg',
+    title: "Cheery",
+    image: "images/26.jpg",
     price: 60000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 27,
-    title: 'انجیر',
-    image: 'images/27.jpg',
+    title: "Fig",
+    image: "images/27.jpg",
     price: 55000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 28,
-    title: 'نخود سبز',
-    image: 'images/28.jpg',
+    title: "Peas",
+    image: "images/28.jpg",
     price: 30000,
     count: 1,
     isInterest: false,
-    category: 'حبوبات'
-},
-{
+    category: "Beans"
+  },
+  {
     id: 29,
-    title: 'کیوی',
-    image: 'images/29.jpg',
+    title: "Kiwi",
+    image: "images/29.jpg",
     price: 20000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 30,
-    title: 'لوبیا سبز',
-    image: 'images/30.jpg',
+    title: "Fool",
+    image: "images/30.jpg",
     price: 17000,
     count: 1,
     isInterest: false,
-    category: 'حبوبات'
-},
-{
+    category: "Beans"
+  },
+  {
     id: 31,
-    title: 'لوبیا قرمز',
-    image: 'images/31.jpg',
+    title: "Red Beans",
+    image: "images/31.jpg",
     price: 22000,
     count: 1,
     isInterest: false,
-    category: 'حبوبات'
-},
-{
+    category: "Beans"
+  },
+  {
     id: 32,
-    title: 'انگور',
-    image: 'images/32.jpg',
+    title: "Grapes",
+    image: "images/32.jpg",
     price: 24000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 33,
-    title: 'لیمو',
-    image: 'images/33.jpg',
+    title: "Lemon",
+    image: "images/33.jpg",
     price: 55000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 34,
-    title: 'طالبی',
-    image: 'images/34.jpg',
+    title: "Melon",
+    image: "images/34.jpg",
     price: 8000,
     count: 1,
     isInterest: false,
-    category: 'میوه جات'
-},
-{
+    category: "Fruit"
+  },
+  {
     id: 35,
-    title: 'عدس',
-    image: 'images/35.jpg',
+    title: "Cheakpea",
+    image: "images/35.jpg",
     price: 13000,
     count: 1,
     isInterest: false,
-    category: 'حبوبات'
-},
-{
+    category: "Beans"
+  },
+  {
     id: 36,
-    title: 'تربچه',
-    image: 'images/36.jpg',
+    title: "Beats",
+    image: "images/36.jpg",
     price: 4000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-{
+    category: "Vegetable"
+  },
+  {
     id: 37,
-    title: 'ذرت',
-    image: 'images/37.jpg',
+    title: "Corn",
+    image: "images/37.jpg",
     price: 12000,
     count: 1,
     isInterest: false,
-    category: 'سبزیجات'
-},
-]
+    category: "Vegetable"
+  }
+];
 
-export default allProducts
+export default allProducts;

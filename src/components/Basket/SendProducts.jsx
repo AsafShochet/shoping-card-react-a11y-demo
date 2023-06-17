@@ -11,7 +11,7 @@ export default function SendProducts() {
         <span>هزینه ارسال</span>
         <span>
           {state.totalPrice - state.offerPrice <= 100_000
-            ? `${sendPrice.toLocaleString()} تومان`
+            ? `${sendPrice.toLocaleString()} USD`
             : "رایگان"}
         </span>
       </div>
