@@ -19,13 +19,13 @@ const Coupons = () => {
       text: "Get free shipping on all orders over $1000."
     },
     {
-        title: "Lucky Sevens",
-        text: "Get 5% off for every 7 that you have in your ID."
-      },
-      {
-        title: "Gift from us",
-        text: "Get 2 Bananas for every order."
-      },
+      title: "Lucky Sevens",
+      text: "Get 5% off for every 7 that you have in your ID."
+    },
+    {
+      title: "Gift from us",
+      text: "Get 2 Bananas for every order."
+    }
   ];
   const renderCoupon = (title, text) => {
     return (
@@ -41,6 +41,30 @@ const Coupons = () => {
       <h1>Coupons</h1>
       <div className="coupons-list">
         {couponsList.map((coupon) => renderCoupon(coupon.title, coupon.text))}
+      </div>
+      <div className="coupons-footer">
+        <h2>Preferences</h2>
+        <div className='toggle-row'>
+          I prefer to receive emails about carrots
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div className='toggle-row'>
+          I prefer to receive emails about cucumbers
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div className='toggle-row'>
+          I prefer to receive emails about all discounts
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
       </div>
     </div>
   );
