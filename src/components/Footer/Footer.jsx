@@ -42,6 +42,7 @@ export default function Footer() {
         <div className="footer_link_box">
           <Link to={"/basket"}>Cart</Link>
           <Link to={"/favorite"}>Favorites</Link>
+          <Link to={"/coupons"}>Crazy Coupons</Link>
           <a
             target={"_blank"}
             href="https://github.com/mohammadyousefvand/Shoping-card-react"
