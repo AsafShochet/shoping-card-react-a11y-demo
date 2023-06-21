@@ -51,6 +51,11 @@
     background-color: #7fb002;
 }
 
+.filter_btn:focus {
+    border: 2px red solid;
+}
+
+
 
 
 

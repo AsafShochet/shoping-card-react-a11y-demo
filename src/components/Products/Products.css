@@ -86,6 +86,10 @@
   background-color: #7fb002;
 }
 
+.buy_button:focus {
+  border: 2px red solid;
+}
+
 .add_button:hover {
   background-color: #ff8000;
 }

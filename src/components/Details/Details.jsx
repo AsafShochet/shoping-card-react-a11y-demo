@@ -16,10 +16,10 @@ export default function Details() {
   return (
     <div className="details_container">
       <div className="details_linkBar">
-        <span onClick={() => navigate(-1)} className="details_backLink">
+        <button onClick={() => navigate(-1)} className="details_backLink">
           <HiArrowRight />
           Back
-        </span>
+        </button>
       </div>
       <div className="datails_card">
         <div className="image_box">
