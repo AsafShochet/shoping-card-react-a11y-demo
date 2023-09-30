@@ -2,8 +2,9 @@ import React, { useContext } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ProductContext, ProductDispath } from "../Context/ContextProvider";
 import { HiArrowRight } from "react-icons/hi";
-import "./Details.css";
 import Buttons from "../Buttons/Buttons";
+import kgImg from "../../images/kg.png";
+import "./Details.css";
 
 export default function Details() {
   const navigate = useNavigate();
@@ -24,7 +25,7 @@ export default function Details() {
       <div className="datails_card">
         <div className="image_box">
           <img className="card_image" src={datas.image} alt="card_image" />
-          <img src="images/kg.png" alt="" className="kg_image" />
+          <img src={kgImg} alt="" className="kg_image" />
         </div>
         <div className="main_content_box">
           <span className="card_category">{datas.category}</span>

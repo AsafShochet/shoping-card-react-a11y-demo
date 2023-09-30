@@ -1,8 +1,46 @@
+import image1 from "./images/1.jpg";
+import image2 from "./images/2.jpg";
+import image3 from "./images/3.jpg";
+import image4 from "./images/4.jpg";
+import image5 from "./images/5.jpg";
+import image6 from "./images/6.jpg";
+import image7 from "./images/7.jpg";
+import image8 from "./images/8.jpg";
+import image9 from "./images/9.jpg";
+import image10 from "./images/10.jpg";
+import image11 from "./images/11.jpg";
+import image12 from "./images/12.jpg";
+import image13 from "./images/13.jpg";
+import image14 from "./images/14.jpg";
+import image15 from "./images/15.jpg";
+import image16 from "./images/16.jpg";
+import image17 from "./images/17.jpg";
+import image18 from "./images/18.jpg";
+import image19 from "./images/19.jpg";
+import image20 from "./images/20.jpg";
+import image21 from "./images/21.jpg";
+import image22 from "./images/22.jpg";
+import image23 from "./images/23.jpg";
+import image24 from "./images/24.jpg";
+import image25 from "./images/25.jpg";
+import image26 from "./images/26.jpg";
+import image27 from "./images/27.jpg";
+import image28 from "./images/28.jpg";
+import image29 from "./images/29.jpg";
+import image30 from "./images/30.jpg";
+import image31 from "./images/31.jpg";
+import image32 from "./images/32.jpg";
+import image33 from "./images/33.jpg";
+import image34 from "./images/34.jpg";
+import image35 from "./images/35.jpg";
+import image36 from "./images/36.jpg";
+import image37 from "./images/37.jpg";
+
 let allProducts = [
   {
     id: 1,
     title: "Strawberry",
-    image: "images/1.jpg",
+    image: image1,
     price: 10000,
     count: 1,
     isInterest: false,
@@ -11,7 +49,7 @@ let allProducts = [
   {
     id: 2,
     title: "Onion",
-    image: "images/2.jpg",
+    image: image2,
     price: 13000,
     count: 1,
     isInterest: false,
@@ -20,7 +58,7 @@ let allProducts = [
   {
     id: 3,
     title: "Tomato",
-    image: "images/3.jpg",
+    image: image3,
     price: 15000,
     count: 1,
     isInterest: false,
@@ -29,7 +67,7 @@ let allProducts = [
   {
     id: 4,
     title: "Eggplant",
-    image: "images/4.jpg",
+    image: image4,
     price: 12500,
     count: 1,
     isInterest: false,
@@ -38,7 +76,7 @@ let allProducts = [
   {
     id: 5,
     title: "Broccoli",
-    image: "images/5.jpg",
+    image: image5,
     price: 8500,
     count: 1,
     isInterest: false,
@@ -47,7 +85,7 @@ let allProducts = [
   {
     id: 7,
     title: "Carrot",
-    image: "images/7.jpg",
+    image: image7,
     price: 12000,
     count: 1,
     isInterest: false,
@@ -56,7 +94,7 @@ let allProducts = [
   {
     id: 8,
     title: "Colliflower",
-    image: "images/8.jpg",
+    image: image8,
     price: 8000,
     count: 1,
     isInterest: false,
@@ -65,7 +103,7 @@ let allProducts = [
   {
     id: 9,
     title: "Cucumber",
-    image: "images/9.jpg",
+    image: image9,
     price: 4000,
     count: 1,
     isInterest: false,
@@ -74,7 +112,7 @@ let allProducts = [
   {
     id: 10,
     title: "Garlic",
-    image: "images/10.jpg",
+    image: image10,
     price: 16500,
     count: 1,
     isInterest: false,
@@ -83,7 +121,7 @@ let allProducts = [
   {
     id: 11,
     title: "Green Pepper",
-    image: "images/11.jpg",
+    image: image11,
     price: 7000,
     count: 1,
     isInterest: false,
@@ -92,7 +130,7 @@ let allProducts = [
   {
     id: 12,
     title: "Lettuce",
-    image: "images/12.jpg",
+    image: image12,
     price: 18000,
     count: 1,
     isInterest: false,
@@ -101,7 +139,7 @@ let allProducts = [
   {
     id: 13,
     title: "Hot Pepper",
-    image: "images/13.jpg",
+    image: image13,
     price: 20000,
     count: 1,
     isInterest: false,
@@ -110,7 +148,7 @@ let allProducts = [
   {
     id: 14,
     title: "Watermelon",
-    image: "images/14.jpg",
+    image: image14,
     price: 8000,
     count: 1,
     isInterest: false,
@@ -119,7 +157,7 @@ let allProducts = [
   {
     id: 15,
     title: "Mushroom",
-    image: "images/15.jpg",
+    image: image15,
     price: 25000,
     count: 1,
     isInterest: false,
@@ -128,7 +166,7 @@ let allProducts = [
   {
     id: 16,
     title: "Banana",
-    image: "images/16.jpg",
+    image: image16,
     price: 47000,
     count: 1,
     isInterest: false,
@@ -137,7 +175,7 @@ let allProducts = [
   {
     id: 17,
     title: "Zukkini",
-    image: "images/17.jpg",
+    image: image17,
     price: 13500,
     count: 1,
     isInterest: false,
@@ -146,7 +184,7 @@ let allProducts = [
   {
     id: 18,
     title: "Pinapple",
-    image: "images/18.jpg",
+    image: image18,
     price: 25500,
     count: 1,
     isInterest: false,
@@ -155,7 +193,7 @@ let allProducts = [
   {
     id: 19,
     title: "Almond",
-    image: "images/19.jpg",
+    image: image19,
     price: 55000,
     count: 1,
     isInterest: false,
@@ -164,7 +202,7 @@ let allProducts = [
   {
     id: 20,
     title: "Apple",
-    image: "images/20.jpg",
+    image: image20,
     price: 12500,
     count: 1,
     isInterest: false,
@@ -173,7 +211,7 @@ let allProducts = [
   {
     id: 21,
     title: "Armon",
-    image: "images/21.jpg",
+    image: image21,
     price: 45000,
     count: 1,
     isInterest: false,
@@ -182,7 +220,7 @@ let allProducts = [
   {
     id: 22,
     title: "Pistachio",
-    image: "images/22.jpg",
+    image: image22,
     price: 150000,
     count: 1,
     isInterest: false,
@@ -191,7 +229,7 @@ let allProducts = [
   {
     id: 23,
     title: "Orange",
-    image: "images/23.jpg",
+    image: image23,
     price: 12000,
     count: 1,
     isInterest: false,
@@ -200,7 +238,7 @@ let allProducts = [
   {
     id: 24,
     title: "Sunflower Seed",
-    image: "images/24.jpg",
+    image: image24,
     price: 40000,
     count: 1,
     isInterest: false,
@@ -209,7 +247,7 @@ let allProducts = [
   {
     id: 25,
     title: "King Nuts",
-    image: "images/25.jpg",
+    image: image25,
     price: 50000,
     count: 1,
     isInterest: false,
@@ -218,7 +256,7 @@ let allProducts = [
   {
     id: 26,
     title: "Cheery",
-    image: "images/26.jpg",
+    image: image26,
     price: 60000,
     count: 1,
     isInterest: false,
@@ -227,7 +265,7 @@ let allProducts = [
   {
     id: 27,
     title: "Fig",
-    image: "images/27.jpg",
+    image: image27,
     price: 55000,
     count: 1,
     isInterest: false,
@@ -236,7 +274,7 @@ let allProducts = [
   {
     id: 28,
     title: "Peas",
-    image: "images/28.jpg",
+    image: image28,
     price: 30000,
     count: 1,
     isInterest: false,
@@ -245,7 +283,7 @@ let allProducts = [
   {
     id: 29,
     title: "Kiwi",
-    image: "images/29.jpg",
+    image: image29,
     price: 20000,
     count: 1,
     isInterest: false,
@@ -254,7 +292,7 @@ let allProducts = [
   {
     id: 30,
     title: "Fool",
-    image: "images/30.jpg",
+    image: image30,
     price: 17000,
     count: 1,
     isInterest: false,
@@ -263,7 +301,7 @@ let allProducts = [
   {
     id: 31,
     title: "Red Beans",
-    image: "images/31.jpg",
+    image: image31,
     price: 22000,
     count: 1,
     isInterest: false,
@@ -272,7 +310,7 @@ let allProducts = [
   {
     id: 32,
     title: "Grapes",
-    image: "images/32.jpg",
+    image: image32,
     price: 24000,
     count: 1,
     isInterest: false,
@@ -281,7 +319,7 @@ let allProducts = [
   {
     id: 33,
     title: "Lemon",
-    image: "images/33.jpg",
+    image: image33,
     price: 55000,
     count: 1,
     isInterest: false,
@@ -290,7 +328,7 @@ let allProducts = [
   {
     id: 34,
     title: "Melon",
-    image: "images/34.jpg",
+    image: image34,
     price: 8000,
     count: 1,
     isInterest: false,
@@ -299,7 +337,7 @@ let allProducts = [
   {
     id: 35,
     title: "Cheakpea",
-    image: "images/35.jpg",
+    image: image35,
     price: 13000,
     count: 1,
     isInterest: false,
@@ -308,7 +346,7 @@ let allProducts = [
   {
     id: 36,
     title: "Beats",
-    image: "images/36.jpg",
+    image: image36,
     price: 4000,
     count: 1,
     isInterest: false,
@@ -317,7 +355,7 @@ let allProducts = [
   {
     id: 37,
     title: "Corn",
-    image: "images/37.jpg",
+    image: image37,
     price: 12000,
     count: 1,
     isInterest: false,

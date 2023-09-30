@@ -14,7 +14,7 @@ export default function Card(props) {
 
   return (
     <div key={props.id} className="box">
-      <Link to={`/${props.id}`}>
+      <Link to={`/product/${props.id}`}>
         <img className="product_img" src={props.image} alt="product" />
         <div className="content">
           <div className="title">
@@ -32,7 +32,7 @@ export default function Card(props) {
           onClick={() => dispath({ type: "ADD_TO_BASKET", payload: props.id })}
           className="products_button buy_button"
         >
-         Add
+          Add
           <FiShoppingCart className="buy_icon" />
         </button>
       )}

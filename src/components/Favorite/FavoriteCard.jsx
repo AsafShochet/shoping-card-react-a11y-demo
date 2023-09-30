@@ -7,7 +7,7 @@ export default function FavoriteCard(props) {
 
   return (
     <div key={props.id} className="favorite_card">
-      <Link to={`/${props.id}`}>
+      <Link to={`/product/${props.id}`}>
         <img className="favorite_img" src={props.image} alt="favorite_image" />
         <div className="favorite_content">
           <div className="favorite_title">

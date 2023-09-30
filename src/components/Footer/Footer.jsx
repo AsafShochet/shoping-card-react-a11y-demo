@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import { FaArrowUp } from "react-icons/fa";
+import memoryImg from "../../images/memory.png";
 
 export default function Footer() {
   const handelToTop = () => {
@@ -13,19 +14,16 @@ export default function Footer() {
         <FaArrowUp />
       </span>
       <div className="footer_first">
-        <img src="images/memory.png" alt="Memory Game" />
+        <img src={memoryImg} alt="Memory Game" />
         <div className="footer_btn_title_box">
-          <p>
-            بازی کارت حافظه که با Vanilla js نوشته شده را نیز میتوانید از این
-            لینک تجربه کنید.
-          </p>
+          <p>Try out this nice memory game</p>
           <a
             target={"_blank"}
             href="https://mohammadyousefvand.github.io/Memory-Card-Game/"
             className="btn_link_to_game"
             rel="noreferrer"
           >
-            بزن بریم
+            Go{" "}
           </a>
           <a
             target={"_blank"}
@@ -38,7 +36,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer_last">
-        <span>دسترسی سریع</span>
+        <span>Quick Access</span>
         <div className="footer_link_box">
           <Link to={"/basket"}>Cart</Link>
           <Link to={"/favorite"}>Favorites</Link>
@@ -48,7 +46,7 @@ export default function Footer() {
             href="https://github.com/mohammadyousefvand/Shoping-card-react"
             rel="noreferrer"
           >
-            دیدن سورس کد پروژه در گیت هاب
+            View source on Github
           </a>
         </div>
       </div>

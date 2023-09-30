@@ -11,7 +11,7 @@ import Coupons from "./components/Coupons/Coupons";
 function App() {
   let router = useRoutes([
     { path: "/", element: <Products /> },
-    { path: "/:id", element: <Details /> },
+    { path: "/product/:id", element: <Details /> },
     { path: "/favorite", element: <FavoritePage /> },
     { path: "/basket", element: <Basket /> },
     { path: "/coupons", element: <Coupons /> },

@@ -4,6 +4,7 @@ import "./FavoritePage.css";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 import FavoriteCard from "./FavoriteCard";
+import emptyFavoriteImg from "../../images/empty_favorite.svg";
 
 export default function FavoritePage() {
   const { state } = useContext(ProductContext);
@@ -28,7 +29,8 @@ export default function FavoritePage() {
                 onClick={() => dispath({ type: "REMOVE_ALL_FAVORITE" })}
                 className="favorite_removeAll"
               >
-Remove all              </button>
+                Remove all{" "}
+              </button>
             </div>
             <div className="favorite_container">
               {state.favorites.map((product) => (
@@ -38,11 +40,7 @@ Remove all              </button>
           </>
         ) : (
           <div className="favorite_empty">
-            <img
-              className="favorite_empty_img"
-              src="images/empty_favorite.svg"
-              alt=""
-            />
+            <img className="favorite_empty_img" src={emptyFavoriteImg} alt="" />
             <span className="favorite_empty_title">Nothing here</span>
           </div>
         )}

@@ -7,6 +7,8 @@ import BasketItem from "./BasketItem";
 import Offer from "./Offer";
 import OfferBadge from "./OfferBadge";
 import SendProducts from "./SendProducts";
+import soundImg from "../../images/sound(1).jpg";
+import emptyCartImg from "../../images/empty-cart.png";
 
 export default function Basket() {
   const { state } = useContext(ProductContext);
@@ -24,10 +26,8 @@ export default function Basket() {
         {state.basket.length > 0 && (
           <div className="favorite_linkBar">
             <div className="free_send_title">
-              <img src="images/sound(1).jpg" alt="" />
-              <span>
-              Shipping is free for purchases over 100,000 USD.
-              </span>
+              <img src={soundImg} alt="" />
+              <span>Shipping is free for purchases over 100,000 USD.</span>
             </div>
           </div>
         )}
@@ -69,11 +69,7 @@ export default function Basket() {
         </div>
       ) : (
         <div className="favorite_empty">
-          <img
-            className="favorite_empty_img"
-            src="images/empty-cart.png"
-            alt=""
-          />
+          <img className="favorite_empty_img" src={emptyCartImg} alt="" />
           <span className="favorite_empty_title">Cart is empty</span>
         </div>
       )}

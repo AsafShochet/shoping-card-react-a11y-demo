@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { sendPrice } from "../../Offer";
 import { ProductContext } from "../Context/ContextProvider";
-
+import freeImg from "../../images/free.svg";
 export default function SendProducts() {
   const { state } = useContext(ProductContext);
 
@@ -17,7 +17,7 @@ export default function SendProducts() {
       </div>
       {state.totalPrice - state.offerPrice > 100_000 && (
         <div className="send_free_img">
-          <img src="images/free.svg" alt="free" />
+          <img src={freeImg} alt="free" />
         </div>
       )}
     </div>

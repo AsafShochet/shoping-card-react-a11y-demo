@@ -5,6 +5,7 @@ import { FilterContext } from "../Context/ContextFilter";
 import Card from "./Card/Card";
 import SearchBar from "../SearchBar/SearchBar";
 import Footer from "../Footer/Footer";
+import bareTreeImg from "../../images/bare-tree.png";
 
 export default function Products() {
   const { state } = useContext(FilterContext);
@@ -25,11 +26,7 @@ export default function Products() {
           productsList.map((product) => <Card key={product.id} {...product} />)
         ) : (
           <div className="not_products">
-            <img
-              className="products_empty_img"
-              src="images/bare-tree.png"
-              alt=""
-            />
+            <img className="products_empty_img" src={bareTreeImg} alt="" />
             <span className="products_empty_title">
               با عرض پوزش هیچ محصولی با جستجوی شما مطابقت نداشت!
             </span>
