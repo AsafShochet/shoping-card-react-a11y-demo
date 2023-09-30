@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shoping-card-react-a11y-demo/static/css/main.600c6d6d.css",
+    "main.js": "/shoping-card-react-a11y-demo/static/js/main.ab08ddf4.js",
+    "static/media/iranyekanwebregular.e31c09af.woff2": "/shoping-card-react-a11y-demo/static/media/iranyekanwebregular.e31c09af.1cb1e330de9f566e76c7.woff2",
+    "index.html": "/shoping-card-react-a11y-demo/index.html",
+    "main.600c6d6d.css.map": "/shoping-card-react-a11y-demo/static/css/main.600c6d6d.css.map",
+    "main.ab08ddf4.js.map": "/shoping-card-react-a11y-demo/static/js/main.ab08ddf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.600c6d6d.css",
+    "static/js/main.ab08ddf4.js"
+  ]
+}
