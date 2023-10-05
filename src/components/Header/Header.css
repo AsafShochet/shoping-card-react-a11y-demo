@@ -1,6 +1,13 @@
 .header {
   width: 100%;
-  background-color: #8fc700;
+  /* Italy flag in gradients */
+  background-image: linear-gradient(
+    to right,
+    #008c45,
+    /* #559f5c, */ /* #82b278, */ /* #a9c598, */ /* #ccd9bb, */ #d0d6b4,
+    /* #d5d3ae, */ /* #dbd0a9, */ /* #d4b077, */ /* #d28b4d, */ /* #d16132, */
+      #cd212a
+  );
   position: fixed;
   top: 0;
   left: 0;

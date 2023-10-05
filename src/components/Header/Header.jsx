@@ -29,7 +29,7 @@ function Header() {
     <header className="header">
       <nav className="nav">
         <Link to={"/"} className="logo">
-          Home
+          Pizza Toppings Kingdom
         </Link>
         <div className="search_header">{pathname === "/" && <SearchBar />}</div>
         <div className="icon_Sopping_box">

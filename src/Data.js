@@ -41,7 +41,7 @@ let allProducts = [
     id: 1,
     title: "Strawberry",
     image: image1,
-    price: 10000,
+    price: 10,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -50,7 +50,7 @@ let allProducts = [
     id: 2,
     title: "Onion",
     image: image2,
-    price: 13000,
+    price: 13,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -59,7 +59,7 @@ let allProducts = [
     id: 3,
     title: "Tomato",
     image: image3,
-    price: 15000,
+    price: 15,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -68,7 +68,7 @@ let allProducts = [
     id: 4,
     title: "Eggplant",
     image: image4,
-    price: 12500,
+    price: 12,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -77,7 +77,7 @@ let allProducts = [
     id: 5,
     title: "Broccoli",
     image: image5,
-    price: 8500,
+    price: 8,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -86,7 +86,7 @@ let allProducts = [
     id: 7,
     title: "Carrot",
     image: image7,
-    price: 12000,
+    price: 12,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -95,7 +95,7 @@ let allProducts = [
     id: 8,
     title: "Colliflower",
     image: image8,
-    price: 8000,
+    price: 8,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -104,7 +104,7 @@ let allProducts = [
     id: 9,
     title: "Cucumber",
     image: image9,
-    price: 4000,
+    price: 4,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -122,7 +122,7 @@ let allProducts = [
     id: 11,
     title: "Green Pepper",
     image: image11,
-    price: 7000,
+    price: 7,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -131,7 +131,7 @@ let allProducts = [
     id: 12,
     title: "Lettuce",
     image: image12,
-    price: 18000,
+    price: 18,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -140,7 +140,7 @@ let allProducts = [
     id: 13,
     title: "Hot Pepper",
     image: image13,
-    price: 20000,
+    price: 20,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -149,7 +149,7 @@ let allProducts = [
     id: 14,
     title: "Watermelon",
     image: image14,
-    price: 8000,
+    price: 8,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -158,7 +158,7 @@ let allProducts = [
     id: 15,
     title: "Mushroom",
     image: image15,
-    price: 25000,
+    price: 25,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -167,7 +167,7 @@ let allProducts = [
     id: 16,
     title: "Banana",
     image: image16,
-    price: 47000,
+    price: 47,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -194,7 +194,7 @@ let allProducts = [
     id: 19,
     title: "Almond",
     image: image19,
-    price: 55000,
+    price: 55,
     count: 1,
     isInterest: false,
     category: "Nuts"
@@ -203,7 +203,7 @@ let allProducts = [
     id: 20,
     title: "Apple",
     image: image20,
-    price: 12500,
+    price: 6,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -212,7 +212,7 @@ let allProducts = [
     id: 21,
     title: "Armon",
     image: image21,
-    price: 45000,
+    price: 45,
     count: 1,
     isInterest: false,
     category: "Nuts"
@@ -221,7 +221,7 @@ let allProducts = [
     id: 22,
     title: "Pistachio",
     image: image22,
-    price: 150000,
+    price: 150,
     count: 1,
     isInterest: false,
     category: "Nuts"
@@ -230,7 +230,7 @@ let allProducts = [
     id: 23,
     title: "Orange",
     image: image23,
-    price: 12000,
+    price: 12,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -239,7 +239,7 @@ let allProducts = [
     id: 24,
     title: "Sunflower Seed",
     image: image24,
-    price: 40000,
+    price: 40,
     count: 1,
     isInterest: false,
     category: "Nuts"
@@ -248,7 +248,7 @@ let allProducts = [
     id: 25,
     title: "King Nuts",
     image: image25,
-    price: 50000,
+    price: 50,
     count: 1,
     isInterest: false,
     category: "Nuts"
@@ -257,7 +257,7 @@ let allProducts = [
     id: 26,
     title: "Cheery",
     image: image26,
-    price: 60000,
+    price: 60,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -266,7 +266,7 @@ let allProducts = [
     id: 27,
     title: "Fig",
     image: image27,
-    price: 55000,
+    price: 55,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -275,7 +275,7 @@ let allProducts = [
     id: 28,
     title: "Peas",
     image: image28,
-    price: 30000,
+    price: 30,
     count: 1,
     isInterest: false,
     category: "Beans"
@@ -284,7 +284,7 @@ let allProducts = [
     id: 29,
     title: "Kiwi",
     image: image29,
-    price: 20000,
+    price: 20,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -293,7 +293,7 @@ let allProducts = [
     id: 30,
     title: "Fool",
     image: image30,
-    price: 17000,
+    price: 17,
     count: 1,
     isInterest: false,
     category: "Beans"
@@ -302,7 +302,7 @@ let allProducts = [
     id: 31,
     title: "Red Beans",
     image: image31,
-    price: 22000,
+    price: 22,
     count: 1,
     isInterest: false,
     category: "Beans"
@@ -311,7 +311,7 @@ let allProducts = [
     id: 32,
     title: "Grapes",
     image: image32,
-    price: 24000,
+    price: 24,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -320,7 +320,7 @@ let allProducts = [
     id: 33,
     title: "Lemon",
     image: image33,
-    price: 55000,
+    price: 55,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -329,7 +329,7 @@ let allProducts = [
     id: 34,
     title: "Melon",
     image: image34,
-    price: 8000,
+    price: 8,
     count: 1,
     isInterest: false,
     category: "Fruit"
@@ -338,7 +338,7 @@ let allProducts = [
     id: 35,
     title: "Cheakpea",
     image: image35,
-    price: 13000,
+    price: 13,
     count: 1,
     isInterest: false,
     category: "Beans"
@@ -347,7 +347,7 @@ let allProducts = [
     id: 36,
     title: "Beats",
     image: image36,
-    price: 4000,
+    price: 4,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -356,7 +356,7 @@ let allProducts = [
     id: 37,
     title: "Corn",
     image: image37,
-    price: 12000,
+    price: 12,
     count: 1,
     isInterest: false,
     category: "Vegetable"
