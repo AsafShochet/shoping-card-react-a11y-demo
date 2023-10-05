@@ -113,7 +113,7 @@ let allProducts = [
     id: 10,
     title: "Garlic",
     image: image10,
-    price: 16500,
+    price: 16,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -176,7 +176,7 @@ let allProducts = [
     id: 17,
     title: "Zukkini",
     image: image17,
-    price: 13500,
+    price: 13,
     count: 1,
     isInterest: false,
     category: "Vegetable"
@@ -185,7 +185,7 @@ let allProducts = [
     id: 18,
     title: "Pinapple",
     image: image18,
-    price: 25500,
+    price: 2,
     count: 1,
     isInterest: false,
     category: "Fruit"
