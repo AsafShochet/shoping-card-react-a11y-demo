@@ -27,12 +27,8 @@ export default function Products() {
         ) : (
           <div className="not_products">
             <img className="products_empty_img" src={bareTreeImg} alt="" />
-            <span className="products_empty_title">
-              با عرض پوزش هیچ محصولی با جستجوی شما مطابقت نداشت!
-            </span>
-            <span className="products_empty_guide">
-              کلمه کلیدی دیگری را وارد کرده و امتحان کنید
-            </span>
+            <span className="products_empty_title">Nothing here </span>
+            <span className="products_empty_guide"></span>
           </div>
         )}
       </div>

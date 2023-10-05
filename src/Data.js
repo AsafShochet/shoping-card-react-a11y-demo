@@ -38,15 +38,6 @@ import image37 from "./images/37.jpg";
 
 let allProducts = [
   {
-    id: 1,
-    title: "Strawberry",
-    image: image1,
-    price: 10,
-    count: 1,
-    isInterest: false,
-    category: "Fruit"
-  },
-  {
     id: 2,
     title: "Onion",
     image: image2,
@@ -180,6 +171,15 @@ let allProducts = [
     count: 1,
     isInterest: false,
     category: "Vegetable"
+  },
+  {
+    id: 1,
+    title: "Strawberry",
+    image: image1,
+    price: 10,
+    count: 1,
+    isInterest: false,
+    category: "Fruit"
   },
   {
     id: 18,

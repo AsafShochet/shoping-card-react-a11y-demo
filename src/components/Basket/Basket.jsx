@@ -48,7 +48,7 @@ export default function Basket() {
             </div>
             {state.totalPriceAfterOffer > 0 && (
               <div className="basket_offer">
-                <span>قیمت با تخفیف</span>
+                <span>Total</span>
                 <span>{state.totalPriceAfterOffer.toLocaleString()} USD</span>
               </div>
             )}
